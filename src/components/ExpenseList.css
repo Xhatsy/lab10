@@ -1,0 +1,47 @@
+/* Стиль для списка расходов */
+.expense-list {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.expense-list h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #3a3a3a;
+}
+
+.expense-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.expense-item:last-child {
+  border-bottom: none;
+}
+
+.expense-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.expense-date {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.expense-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #40005d;
+}

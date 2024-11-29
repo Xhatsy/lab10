@@ -1,0 +1,16 @@
+/* src/components/ExpenseFilter.css */
+.expense-filter {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expense-filter label {
+  margin-right: 10px;
+}
+
+.expense-filter select {
+  padding: 5px;
+  font-size: 1rem;
+}
